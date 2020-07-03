@@ -1,6 +1,6 @@
 
-def FizzBuzz ():
-    for fizzbuzz in range(1,101):
+def FizzBuzz (start, stop):
+    for fizzbuzz in range(start,stop):
         if fizzbuzz % 3 == 0 and fizzbuzz % 5 == 0:
            print("FizzBuzz")
            continue
@@ -11,7 +11,7 @@ def FizzBuzz ():
            print("Buzz")
            continue
         print(fizzbuzz)
-FizzBuzz()
+FizzBuzz(3000,7000)
 
 
 
